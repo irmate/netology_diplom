@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.9.xsd">
+
+    <changeSet id="1.11" author="irmate">
+        <insert tableName="users">
+            <column name="login" value="test@mail.ru"/>
+            <column name="password" value="$2a$10$zUMxrGxvADR2bIOXGd6HRuKXIq33sq0rj40vuIF0FR2XTj3wU16zG"/>
+        </insert>
+    </changeSet>
+
+</databaseChangeLog>
